@@ -1,2 +1,2 @@
-# vue-services
-vue-resource services wrapper class
+# vue-service
+vue-resource wrapper class
