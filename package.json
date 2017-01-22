@@ -1,0 +1,32 @@
+{
+  "name": "vue-service",
+  "version": "1.0.2",
+  "description": "vue-resource service wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikkio88/vue-services.git"
+  },
+  "keywords": [
+    "vue-resource",
+    "vue-services",
+    "rest"
+  ],
+  "author": "Vincenzo Ciaccio <vincenzo.ciaccio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikkio88/vue-services/issues"
+  },
+  "homepage": "https://github.com/vikkio88/vue-services#readme",
+  "devDependencies": {
+    "babel": "^4.6.0"
+  },
+  "dependencies": {
+    "vue": "^2.1.10",
+    "vue-resource": "^1.0.3"
+  }
+}
